@@ -9,6 +9,7 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
+
 # define functions
 def main(args):
     # TO DO: enable autologging
@@ -36,7 +37,7 @@ def get_csvs_df(path):
 # TO DO: add function to split data
 def split_data(dataframe):
     # split data
-    train_test_split(X,y, test_size=0.30, random_state=0)
+    train_test_split(X, y, test_size=0.30, random_state=0)
 
 
 def train_model(reg_rate, X_train, X_test, y_train, y_test):
@@ -59,6 +60,7 @@ def parse_args():
 
     # return args
     return args
+
 
 # run script
 if __name__ == "__main__":
