@@ -11,6 +11,8 @@ from sklearn.model_selection import train_test_split
 
 
 # define functions
+
+
 def main(args):
     # TO DO: enable autologging
     mlflow.autolog()
@@ -63,7 +65,9 @@ def parse_args():
 
 
 # run script
-if __name__ == "__main__":
+if __name__ == "__main__
+
+
     # add space in logs
     print("\n\n")
     print("*" * 60)
